@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+
+header {
+    background-image: url('./assets/home_bg.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+    height: 280px;
+    text-align: center;
+}
+
+nav {
+  background-image: url("./assets/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 60px;
+}
+
+a:link, a:visited {
+  color: white;
+}
+
+footer{
+  background-image: url('./assets/footer.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  height: 200px;
+  text-align: center;
+  padding-top: 2em;
+  /* font-size: 2rem; */
+  color: white;
+  /* font-weight: bold; */
+}
+
+h1, h3, h4 {
+  font-family: 'Fjalla One', sans-serif;
+}
+#slogan{
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+
+#about{
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.banner {
+    background-image: url('./assets/home_banner.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 5em;
+    text-align: center;
+    padding-top: 2em;
+    /* font-size: 1em; */
+    color: white;
+    /* font-weight: bold; */
+}
+
+.banner-secundary {
+    background-image: url('./assets/home_banner.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+    height: 2em;
+  }
+
+.color-orange{
+  color: #E1750A;
+}
+
+.text-carousel{
+  font-size: 1.5em;
+}
+
+.text-footer{
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  padding: 2em;
+}
+
+.image-fashion{
+  margin-top: 2em;
+  height: 300px;
+  background-image: url("./assets/fashion-week.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.image-women{
+  margin-top: 2em;
+  height: 300px;
+  background-image: url("./assets/black-women-in-music.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.image-smash{
+  margin-top: 2em;
+  height: 300px;
+  background-image: url("./assets/smash-patriarchy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}

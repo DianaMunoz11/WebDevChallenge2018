@@ -1,5 +1,7 @@
 <?php
 add_filter('gform_register_init_scripts', 'gform_display_weeks', 10, 2);
+// This function receives a form, depending on the language, assigns
+// the answers to the variables and finally shows the weeks of pregnancy of the user.
 function gform_display_weeks($form) {
 $script = <<<EOT
   (function($){
@@ -337,7 +339,7 @@ function bones_register_sidebars() {
     'before_title' => '<h2 class="h3 module__title">',
     'after_title' => '</h2>',
   ));
-  
+
 } // don't remove this bracket!
-/* DON'T DELETE THIS CLOSING TAG */ 
+/* DON'T DELETE THIS CLOSING TAG */
 ?>
